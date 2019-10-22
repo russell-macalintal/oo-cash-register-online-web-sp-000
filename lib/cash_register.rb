@@ -15,6 +15,6 @@ class CashRegister
       self.total *= (1.0 - self.discount.to_f/100)
       message = "After the discount, the total comes to $#{self.total.to_i}."
     else
-      message = "There is no discount to apply.""
+      message = "There is no discount to apply."
   end
 end
