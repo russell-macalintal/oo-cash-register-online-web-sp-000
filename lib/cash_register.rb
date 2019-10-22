@@ -16,5 +16,7 @@ class CashRegister
       message = "After the discount, the total comes to $#{self.total.to_i}."
     else
       message = "There is no discount to apply."
+    end
   end
+  
 end
