@@ -8,7 +8,8 @@ class CashRegister
   end
 
   def add_item(title, price, quantity = 1)
-    self.last_transaction = price
+    self.last_transaction_price = price
+    self.last_transaction_quantity = quantity
     quantity.times do
       self.items << title
     end
